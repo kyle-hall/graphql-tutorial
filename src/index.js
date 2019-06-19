@@ -16,18 +16,6 @@ const resolvers = {
         url: args.url,
         description: args.description
       })
-    },
-    put: (parent, args, context) => {
-      return context.prisma.updateLink({
-        id: args.id,
-        url: args.url,
-        description: args.description
-      })
-    },
-    delete: (parent, args) => {
-      return context.prisma.deleteLink({
-        id: args.id
-      })
     }
   }
 }
