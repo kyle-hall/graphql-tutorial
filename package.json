@@ -1,0 +1,16 @@
+{
+  "name": "hackernews-node-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "prisma-client-lib": "^1.34.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
